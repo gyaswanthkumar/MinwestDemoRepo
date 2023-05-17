@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 5 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Data_Driven_Basics">
+              <span class="suite-name border-failed">Data Driven Basics</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Data_Driven_Basics">
+                    <span>C:\Users\sss\eclipse-workspace\MoonLightFramework\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Data_Driven_Basics">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Data_Driven_Basics">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Data_Driven_Basics">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Data_Driven_Basics">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Data_Driven_Basics">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Data_Driven_Basics">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">6 methods, 5 failed,  1 skipped,  </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Data_Driven_Basics" class="hide-methods failed suite-Data_Driven_Basics"> (hide)</a> <!-- hide-methods failed suite-Data_Driven_Basics -->
+                      <a href="#" panel-name="suite-Data_Driven_Basics" class="show-methods failed suite-Data_Driven_Basics"> (show)</a> <!-- show-methods failed suite-Data_Driven_Basics -->
+                    </span>
+                    <div class="method-list-content failed suite-Data_Driven_Basics">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Data_Driven_Basics" title="com.SP.testcases.AddCustomerTest" hash-for-method="addCustomerTest({alerttext=Customer added successfully, postcode=A234wd, lastname=Arora, runmode=Y, firstname=Raman})">addCustomerTest({alerttext=Customer added successfully, postcode=A234wd, lastname=Arora, runmode=Y, firstname=Raman})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Data_Driven_Basics" title="com.SP.testcases.AddCustomerTest" hash-for-method="addCustomerTest({alerttext=Customer added successfully, postcode=A234wd, lastname=Arora, runmode=Y, firstname=Ishita...)">addCustomerTest({alerttext=Customer added successfully, postcode=A234wd, lastname=Arora, runmode=Y, firstname=Ishita...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Data_Driven_Basics" title="com.SP.testcases.AddCustomerTest" hash-for-method="addCustomerTest({alerttext=Customer added successfully, postcode=A234wd, lastname=Sehgal, runmode=Y, firstname=Rohit...)">addCustomerTest({alerttext=Customer added successfully, postcode=A234wd, lastname=Sehgal, runmode=Y, firstname=Rohit...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Data_Driven_Basics" title="com.SP.testcases.BankManagerLoginTest" hash-for-method="bankManagerLoginTest">bankManagerLoginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Data_Driven_Basics" title="com.SP.testcases.OpenAccountTest" hash-for-method="openAccountTest({currency=Rupee, customer=Raman Arora})">openAccountTest({currency=Rupee, customer=Raman Arora})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Data_Driven_Basics -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Data_Driven_Basics" class="hide-methods skipped suite-Data_Driven_Basics"> (hide)</a> <!-- hide-methods skipped suite-Data_Driven_Basics -->
+                      <a href="#" panel-name="suite-Data_Driven_Basics" class="show-methods skipped suite-Data_Driven_Basics"> (show)</a> <!-- show-methods skipped suite-Data_Driven_Basics -->
+                    </span>
+                    <div class="method-list-content skipped suite-Data_Driven_Basics">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Data_Driven_Basics" title="com.SP.testcases.AddCustomerTest" hash-for-method="addCustomerTest({alerttext=Customer added successfully, postcode=A234wd, lastname=Arora, runmode=N, firstname=Rahul})">addCustomerTest({alerttext=Customer added successfully, postcode=A234wd, lastname=Arora, runmode=N, firstname=Rahul})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Data_Driven_Basics -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Data_Driven_Basics" class="panel Data_Driven_Basics">
+          <div class="suite-Data_Driven_Basics-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.SP.testcases.OpenAccountTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="openAccountTest({currency=Rupee, customer=Raman Arora})">
+                  </a> <!-- openAccountTest({currency=Rupee, customer=Raman Arora}) -->
+                  <span class="method-name">openAccountTest</span>
+                  <span class="parameters">({currency=Rupee, customer=Raman Arora})</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;button[ng-class=&apos;btnClass2&apos;]&quot;}
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.02 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;sss-PC&apos;, ip: &apos;192.168.0.4&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_141&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\sss\AppData\Local\Temp\scoped_dir6764_28290}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: b9cdfdf9fe49e4a84ba2f83e7f9755f8
+*** Element info: {Using=css selector, value=button[ng-class=&apos;btnClass2&apos;]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:492)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at com.SP.base.TestBase.click(TestBase.java:135)
+	at com.SP.testcases.OpenAccountTest.openAccountTest(OpenAccountTest.java:26)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Data_Driven_Basics-class-failed -->
+          <div class="suite-Data_Driven_Basics-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.SP.testcases.AddCustomerTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addCustomerTest({alerttext=Customer added successfully, postcode=A234wd, lastname=Arora, runmode=Y, firstname=Raman})">
+                  </a> <!-- addCustomerTest({alerttext=Customer added successfully, postcode=A234wd, lastname=Arora, runmode=Y, firstname=Raman}) -->
+                  <span class="method-name">addCustomerTest</span>
+                  <span class="parameters">({alerttext=Customer added successfully, postcode=A234wd, lastname=Arora, runmode=Y, firstname=Raman})</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;button[ng-click=&apos;addCust()&apos;]&quot;}
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.11 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;sss-PC&apos;, ip: &apos;192.168.0.4&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_141&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\sss\AppData\Local\Temp\scoped_dir6764_28290}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: b9cdfdf9fe49e4a84ba2f83e7f9755f8
+*** Element info: {Using=css selector, value=button[ng-click=&apos;addCust()&apos;]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:492)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at com.SP.base.TestBase.click(TestBase.java:135)
+	at com.SP.testcases.AddCustomerTest.addCustomerTest(AddCustomerTest.java:26)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addCustomerTest({alerttext=Customer added successfully, postcode=A234wd, lastname=Arora, runmode=Y, firstname=Ishita...)">
+                  </a> <!-- addCustomerTest({alerttext=Customer added successfully, postcode=A234wd, lastname=Arora, runmode=Y, firstname=Ishita...) -->
+                  <span class="method-name">addCustomerTest</span>
+                  <span class="parameters">({alerttext=Customer added successfully, postcode=A234wd, lastname=Arora, runmode=Y, firstname=Ishita})</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;button[ng-click=&apos;addCust()&apos;]&quot;}
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.07 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;sss-PC&apos;, ip: &apos;192.168.0.4&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_141&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\sss\AppData\Local\Temp\scoped_dir6764_28290}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: b9cdfdf9fe49e4a84ba2f83e7f9755f8
+*** Element info: {Using=css selector, value=button[ng-click=&apos;addCust()&apos;]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:492)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at com.SP.base.TestBase.click(TestBase.java:135)
+	at com.SP.testcases.AddCustomerTest.addCustomerTest(AddCustomerTest.java:26)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addCustomerTest({alerttext=Customer added successfully, postcode=A234wd, lastname=Sehgal, runmode=Y, firstname=Rohit...)">
+                  </a> <!-- addCustomerTest({alerttext=Customer added successfully, postcode=A234wd, lastname=Sehgal, runmode=Y, firstname=Rohit...) -->
+                  <span class="method-name">addCustomerTest</span>
+                  <span class="parameters">({alerttext=Customer added successfully, postcode=A234wd, lastname=Sehgal, runmode=Y, firstname=Rohit})</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;button[ng-click=&apos;addCust()&apos;]&quot;}
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.07 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;sss-PC&apos;, ip: &apos;192.168.0.4&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_141&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\sss\AppData\Local\Temp\scoped_dir6764_28290}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: b9cdfdf9fe49e4a84ba2f83e7f9755f8
+*** Element info: {Using=css selector, value=button[ng-click=&apos;addCust()&apos;]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:492)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at com.SP.base.TestBase.click(TestBase.java:135)
+	at com.SP.testcases.AddCustomerTest.addCustomerTest(AddCustomerTest.java:26)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Data_Driven_Basics-class-failed -->
+          <div class="suite-Data_Driven_Basics-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.SP.testcases.BankManagerLoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="bankManagerLoginTest">
+                  </a> <!-- bankManagerLoginTest -->
+                  <span class="method-name">bankManagerLoginTest</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[1]/div[2]/button&quot;}
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.08 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;sss-PC&apos;, ip: &apos;192.168.0.4&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_141&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\sss\AppData\Local\Temp\scoped_dir6764_28290}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: b9cdfdf9fe49e4a84ba2f83e7f9755f8
+*** Element info: {Using=xpath, value=//div[1]/div[2]/button}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at com.SP.base.TestBase.click(TestBase.java:137)
+	at com.SP.testcases.BankManagerLoginTest.bankManagerLoginTest(BankManagerLoginTest.java:22)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Data_Driven_Basics-class-failed -->
+          <div class="suite-Data_Driven_Basics-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.SP.testcases.AddCustomerTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addCustomerTest({alerttext=Customer added successfully, postcode=A234wd, lastname=Arora, runmode=N, firstname=Rahul})">
+                  </a> <!-- addCustomerTest({alerttext=Customer added successfully, postcode=A234wd, lastname=Arora, runmode=N, firstname=Rahul}) -->
+                  <span class="method-name">addCustomerTest</span>
+                  <span class="parameters">({alerttext=Customer added successfully, postcode=A234wd, lastname=Arora, runmode=N, firstname=Rahul})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test case as the Run mode for data set is NO
+	at com.SP.testcases.AddCustomerTest.addCustomerTest(AddCustomerTest.java:22)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Data_Driven_Basics-class-skipped -->
+        </div> <!-- panel Data_Driven_Basics -->
+        <div panel-name="test-xml-Data_Driven_Basics" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\sss\eclipse-workspace\MoonLightFramework\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Data Driven Basics&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.HTMLReporter&quot;/&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.JUnitXMLReporter&quot;/&gt;
+    &lt;listener class-name=&quot;com.SP.listeners.CustomListeners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;Bank Manager Login Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.SP.testcases.BankManagerLoginTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Bank Manager Login Test --&gt;
+  &lt;test name=&quot;Add Customer Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.SP.testcases.AddCustomerTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Add Customer Test --&gt;
+  &lt;test name=&quot;Open Account Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.SP.testcases.OpenAccountTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Open Account Test --&gt;
+&lt;/suite&gt; &lt;!-- Data Driven Basics --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Data_Driven_Basics" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Data Driven Basics</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Bank Manager Login Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Add Customer Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Open Account Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Data_Driven_Basics" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Data Driven Basics</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Data_Driven_Basics" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Data Driven Basics</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Data_Driven_Basics');
+function tableData_Data_Driven_Basics() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(6);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'bankManagerLoginTest')
+data.setCell(0, 2, 'com.SP.testcases.BankManagerLoginTest')
+data.setCell(0, 3, 13110);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'addCustomerTest')
+data.setCell(1, 2, 'com.SP.testcases.AddCustomerTest')
+data.setCell(1, 3, 10107);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'addCustomerTest')
+data.setCell(2, 2, 'com.SP.testcases.AddCustomerTest')
+data.setCell(2, 3, 10074);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'addCustomerTest')
+data.setCell(3, 2, 'com.SP.testcases.AddCustomerTest')
+data.setCell(3, 3, 10069);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'openAccountTest')
+data.setCell(4, 2, 'com.SP.testcases.OpenAccountTest')
+data.setCell(4, 3, 10017);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'addCustomerTest')
+data.setCell(5, 2, 'com.SP.testcases.AddCustomerTest')
+data.setCell(5, 3, 0);
+window.suiteTableData['Data_Driven_Basics']= { tableData: data, tableDiv: 'times-div-Data_Driven_Basics'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 53 seconds</span>
+              <div id="times-div-Data_Driven_Basics">
+              </div> <!-- times-div-Data_Driven_Basics -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Data_Driven_Basics" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Data Driven Basics</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">bankManagerLoginTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Click to see Screenshot</span>
+                <span class="reporter-method-output"><a target="_blank" href=Sat_Jul_14_10_07_16_IST_2018.jpg>Screenshot</a></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><a target="_blank" href=Sat_Jul_14_10_07_16_IST_2018.jpg><img src=Sat_Jul_14_10_07_16_IST_2018.jpg height=200 width=200></img></a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">addCustomerTest({alerttext=Customer added successfully, postcode=A234wd, lastname=Arora, runmode=Y, firstname=Raman})</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Click to see Screenshot</span>
+                <span class="reporter-method-output"><a target="_blank" href=Sat_Jul_14_10_07_27_IST_2018.jpg>Screenshot</a></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><a target="_blank" href=Sat_Jul_14_10_07_27_IST_2018.jpg><img src=Sat_Jul_14_10_07_27_IST_2018.jpg height=200 width=200></img></a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">addCustomerTest({alerttext=Customer added successfully, postcode=A234wd, lastname=Arora, runmode=Y, firstname=Ishita...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Click to see Screenshot</span>
+                <span class="reporter-method-output"><a target="_blank" href=Sat_Jul_14_10_07_37_IST_2018.jpg>Screenshot</a></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><a target="_blank" href=Sat_Jul_14_10_07_37_IST_2018.jpg><img src=Sat_Jul_14_10_07_37_IST_2018.jpg height=200 width=200></img></a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">addCustomerTest({alerttext=Customer added successfully, postcode=A234wd, lastname=Sehgal, runmode=Y, firstname=Rohit...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Click to see Screenshot</span>
+                <span class="reporter-method-output"><a target="_blank" href=Sat_Jul_14_10_07_48_IST_2018.jpg>Screenshot</a></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><a target="_blank" href=Sat_Jul_14_10_07_48_IST_2018.jpg><img src=Sat_Jul_14_10_07_48_IST_2018.jpg height=200 width=200></img></a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">openAccountTest({currency=Rupee, customer=Raman Arora})</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Click to see Screenshot</span>
+                <span class="reporter-method-output"><a target="_blank" href=Sat_Jul_14_10_07_58_IST_2018.jpg>Screenshot</a></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><a target="_blank" href=Sat_Jul_14_10_07_58_IST_2018.jpg><img src=Sat_Jul_14_10_07_58_IST_2018.jpg height=200 width=200></img></a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Data_Driven_Basics" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Data_Driven_Basics" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.SP.testcases.OpenAccountTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.SP.testcases.BankManagerLoginTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">bankManagerLoginTest</span>
+                <span class="method-start">6245 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.SP.testcases.AddCustomerTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">addCustomerTest({alerttext=Customer added successfully, postcode=A234wd, lastname=Arora, runmode=Y, firstname=Raman})</span>
+                <span class="method-start">20068 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addCustomerTest({alerttext=Customer added successfully, postcode=A234wd, lastname=Arora, runmode=N, firstname=Rahul})</span>
+                <span class="method-start">30607 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">addCustomerTest({alerttext=Customer added successfully, postcode=A234wd, lastname=Arora, runmode=Y, firstname=Ishita...)</span>
+                <span class="method-start">30667 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">addCustomerTest({alerttext=Customer added successfully, postcode=A234wd, lastname=Sehgal, runmode=Y, firstname=Rohit...)</span>
+                <span class="method-start">41129 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.SP.testcases.OpenAccountTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">openAccountTest({currency=Rupee, customer=Raman Arora})</span>
+                <span class="method-start">51692 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-suite after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">62117 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

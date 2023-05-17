@@ -1,0 +1,32 @@
+{
+  "AddCustomerTest": [
+    {
+      "firstname": "Raman",
+      "lastname": "Arora",
+      "postcode": "A234wd",
+      "alerttext": "Customer added successfully",
+      "runmode": "Y"
+    },
+    {
+      "firstname": "Rahul",
+      "lastname": "Arora",
+      "postcode": "A234wd",
+      "alerttext": "Customer added successfully",
+      "runmode": "N"
+    },
+    {
+      "firstname": "Ishita",
+      "lastname": "Arora",
+      "postcode": "A234wd",
+      "alerttext": "Customer added successfully",
+      "runmode": "Y"
+    },
+    {
+      "firstname": "Rohit",
+      "lastname": "Sehgal",
+      "postcode": "A234wd",
+      "alerttext": "Customer added successfully",
+      "runmode": "Y"
+    }
+  ]
+}

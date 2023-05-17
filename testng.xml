@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Data Driven Basics">
+    <listeners>
+		  <listener class-name="com.minnwest.listeners.CustomListeners"/>
+      <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+      <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+	<!--<test name="Minnwest transferLoginpage">
+		<classes>
+			<class name="com.minnwest.testcases.Minnwest_Login" />
+		</classes>
+	</test> Test -->
+	<!--<test name="Minnwest transferLoginpage">
+		<classes>
+			<class name="com.minnwest.testcases.Transfer_login" />
+		</classes>
+	</test> Test -->
+	<test name="Minnwest transferLoginpage">
+		<classes>
+			<class name="com.minnwest.testcases.Mutiple_login_Cred" />
+		</classes>
+	</test> <!--Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,15 @@
+com\SP\rough\TestHostAdd.class
+com\SP\rough\TestTimeStamp.class
+com\SP\rough\TestProperties.class
+com\SP\testcases\BankManagerLoginTest.class
+com\SP\base\TestBase.class
+com\SP\testcases\AddCustomerTest.class
+com\SP\utilities\MonitoringMail$1.class
+com\SP\utilities\TestConfig.class
+com\SP\utilities\MonitoringMail.class
+com\SP\utilities\TestUtil.class
+com\SP\testcases\OpenAccountTest.class
+com\SP\utilities\MonitoringMail$SMTPAuthenticator.class
+com\SP\utilities\ExtentManager.class
+com\SP\utilities\ExcelReader.class
+com\SP\listeners\CustomListeners.class

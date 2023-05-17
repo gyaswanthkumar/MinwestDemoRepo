@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Data Driven Basics]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.minnwest.listeners.CustomListeners"/>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="Minnwest transferLoginpage(failed)">
+    <classes>
+      <class name="com.minnwest.testcases.Mutiple_login_Cred">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="Transfer_login" invocation-numbers="1 2"/>
+        </methods>
+      </class> <!-- com.minnwest.testcases.Mutiple_login_Cred -->
+    </classes>
+  </test> <!-- Minnwest transferLoginpage(failed) -->
+</suite> <!-- Failed suite [Data Driven Basics] -->

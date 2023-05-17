@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Minnwest transferLoginpage"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="293.784">
+  <properties />
+  
+  
+            <testcase name="Transfer_login" time="94.730" classname="com.minnwest.testcases.Mutiple_login_Cred" />
+                <testcase name="Transfer_login" time="103.791" classname="com.minnwest.testcases.Mutiple_login_Cred" />
+                <testcase name="Transfer_login" time="95.263" classname="com.minnwest.testcases.Mutiple_login_Cred" />
+      
+</testsuite>

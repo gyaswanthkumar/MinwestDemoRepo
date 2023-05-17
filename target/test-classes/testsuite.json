@@ -1,0 +1,16 @@
+{
+  "testsuite": [
+    {
+      "TCID": "BankManagerLoginTest",
+      "runmode": "Y"
+    },
+    {
+      "TCID": "AddCustomerTest",
+      "runmode": "Y"
+    },
+    {
+      "TCID": "OpenAccountTest",
+      "runmode": "Y"
+    }
+  ]
+}

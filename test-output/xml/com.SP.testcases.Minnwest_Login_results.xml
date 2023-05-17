@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Minnewest Bank Application"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="18.709">
+  <properties />
+  
+  
+            <testcase name="Minnwest_Login" time="18.709" classname="com.SP.testcases.Minnwest_Login" />
+      
+</testsuite>

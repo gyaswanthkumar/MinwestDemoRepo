@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Minnwest transferLoginpage"
+           tests="3"
+           failures="2"
+           errors="0"
+           skipped="0"
+           time="76.069">
+  <properties />
+            <testcase name="Transfer_login" time="9.021" classname="com.minnwest.testcases.Transfer_login">
+                <failure type="org.openqa.selenium.WebDriverException"
+                  message="Returned value cannot be converted to WebElement: {stacktrace=Backtrace:
+	Ordinal0 [0x00D578B3+2193587]
+	Ordinal0 [0x00CF0681+1771137]
+	Ordinal0 [0x00C04070+802928]
+	Ordinal0 [0x00C27260+946784]
+	Ordinal0 [0x00C4D6A0+1103520]
+	Ordinal0 [0x00C4B4F5+1094901]
+	Ordinal0 [0x00C4B098+1093784]
+	Ordinal0 [0x00BE55C7+677319]
+	Ordinal0 [0x00BE5B43+678723]
+	Ordinal0 [0x00BE5F7A+679802]
+	GetHandleVerifier [0x01000CB2+2738370]
+	GetHandleVerifier [0x00FF21B8+2678216]
+	GetHandleVerifier [0x00DE17AA+512954]
+	GetHandleVerifier [0x00DE0856+509030]
+	Ordinal0 [0x00CF743B+1799227]
+	Ordinal0 [0x00BE5357+676695]
+	Ordinal0 [0x00BE4E18+675352]
+	GetHandleVerifier [0x010242BC+2883276]
+	BaseThreadInitThunk [0x76210099+25]
+	RtlGetAppContainerNamedObjectPath [0x77AE7B6E+286]
+	RtlGetAppContainerNamedObjectPath [0x77AE7B3E+238]
+, error=invalid session id, message=invalid session id}
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;kairosHW0451&apos;, ip: &apos;192.168.1.31&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.6&apos;
+Driver info: driver.version: RemoteWebDriver"
+              >
+<![CDATA[org.openqa.selenium.WebDriverException: Returned value cannot be converted to WebElement: {stacktrace=Backtrace:
+	Ordinal0 [0x00D578B3+2193587]
+	Ordinal0 [0x00CF0681+1771137]
+	Ordinal0 [0x00C04070+802928]
+	Ordinal0 [0x00C27260+946784]
+	Ordinal0 [0x00C4D6A0+1103520]
+	Ordinal0 [0x00C4B4F5+1094901]
+	Ordinal0 [0x00C4B098+1093784]
+	Ordinal0 [0x00BE55C7+677319]
+	Ordinal0 [0x00BE5B43+678723]
+	Ordinal0 [0x00BE5F7A+679802]
+	GetHandleVerifier [0x01000CB2+2738370]
+	GetHandleVerifier [0x00FF21B8+2678216]
+	GetHandleVerifier [0x00DE17AA+512954]
+	GetHandleVerifier [0x00DE0856+509030]
+	Ordinal0 [0x00CF743B+1799227]
+	Ordinal0 [0x00BE5357+676695]
+	Ordinal0 [0x00BE4E18+675352]
+	GetHandleVerifier [0x010242BC+2883276]
+	BaseThreadInitThunk [0x76210099+25]
+	RtlGetAppContainerNamedObjectPath [0x77AE7B6E+286]
+	RtlGetAppContainerNamedObjectPath [0x77AE7B3E+238]
+, error=invalid session id, message=invalid session id}
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'kairosHW0451', ip: '192.168.1.31', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: driver.version: RemoteWebDriver
+  org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:370)
+  org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+  org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+  org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+  com.minnwest.base.TestBase.type(TestBase.java:172)
+  com.minnwest.pages.transferLoginpage.setusername(transferLoginpage.java:10)
+  com.minnwest.testcases.Transfer_login.Transfer_login(Transfer_login.java:21)
+  java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+  java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.base/java.lang.reflect.Method.invoke(Method.java:568)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  org.testng.TestRunner.privateRun(TestRunner.java:744)
+  org.testng.TestRunner.run(TestRunner.java:602)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+  org.testng.SuiteRunner.run(SuiteRunner.java:289)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+  org.testng.TestNG.runSuites(TestNG.java:1144)
+  org.testng.TestNG.run(TestNG.java:1115)
+  org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.ClassCastException: class com.google.common.collect.Maps$TransformedEntriesMap cannot be cast to class org.openqa.selenium.WebElement (com.google.common.collect.Maps$TransformedEntriesMap and org.openqa.selenium.WebElement are in unnamed module of loader 'app')
+  org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+  org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+  org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+  org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+  com.minnwest.base.TestBase.type(TestBase.java:172)
+  com.minnwest.pages.transferLoginpage.setusername(transferLoginpage.java:10)
+  com.minnwest.testcases.Transfer_login.Transfer_login(Transfer_login.java:21)
+  java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+  java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.base/java.lang.reflect.Method.invoke(Method.java:568)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  org.testng.TestRunner.privateRun(TestRunner.java:744)
+  org.testng.TestRunner.run(TestRunner.java:602)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+  org.testng.SuiteRunner.run(SuiteRunner.java:289)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+  org.testng.TestNG.runSuites(TestNG.java:1144)
+  org.testng.TestNG.run(TestNG.java:1115)
+  org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="Transfer_login" time="9.017" classname="com.minnwest.testcases.Transfer_login">
+                <failure type="org.openqa.selenium.WebDriverException"
+                  message="Returned value cannot be converted to WebElement: {stacktrace=Backtrace:
+	Ordinal0 [0x00D578B3+2193587]
+	Ordinal0 [0x00CF0681+1771137]
+	Ordinal0 [0x00C04070+802928]
+	Ordinal0 [0x00C27260+946784]
+	Ordinal0 [0x00C4D6A0+1103520]
+	Ordinal0 [0x00C4B4F5+1094901]
+	Ordinal0 [0x00C4B098+1093784]
+	Ordinal0 [0x00BE55C7+677319]
+	Ordinal0 [0x00BE5B43+678723]
+	Ordinal0 [0x00BE5F7A+679802]
+	GetHandleVerifier [0x01000CB2+2738370]
+	GetHandleVerifier [0x00FF21B8+2678216]
+	GetHandleVerifier [0x00DE17AA+512954]
+	GetHandleVerifier [0x00DE0856+509030]
+	Ordinal0 [0x00CF743B+1799227]
+	Ordinal0 [0x00BE5357+676695]
+	Ordinal0 [0x00BE4E18+675352]
+	GetHandleVerifier [0x010242BC+2883276]
+	BaseThreadInitThunk [0x76210099+25]
+	RtlGetAppContainerNamedObjectPath [0x77AE7B6E+286]
+	RtlGetAppContainerNamedObjectPath [0x77AE7B3E+238]
+, error=invalid session id, message=invalid session id}
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;kairosHW0451&apos;, ip: &apos;192.168.1.31&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.6&apos;
+Driver info: driver.version: RemoteWebDriver"
+              >
+<![CDATA[org.openqa.selenium.WebDriverException: Returned value cannot be converted to WebElement: {stacktrace=Backtrace:
+	Ordinal0 [0x00D578B3+2193587]
+	Ordinal0 [0x00CF0681+1771137]
+	Ordinal0 [0x00C04070+802928]
+	Ordinal0 [0x00C27260+946784]
+	Ordinal0 [0x00C4D6A0+1103520]
+	Ordinal0 [0x00C4B4F5+1094901]
+	Ordinal0 [0x00C4B098+1093784]
+	Ordinal0 [0x00BE55C7+677319]
+	Ordinal0 [0x00BE5B43+678723]
+	Ordinal0 [0x00BE5F7A+679802]
+	GetHandleVerifier [0x01000CB2+2738370]
+	GetHandleVerifier [0x00FF21B8+2678216]
+	GetHandleVerifier [0x00DE17AA+512954]
+	GetHandleVerifier [0x00DE0856+509030]
+	Ordinal0 [0x00CF743B+1799227]
+	Ordinal0 [0x00BE5357+676695]
+	Ordinal0 [0x00BE4E18+675352]
+	GetHandleVerifier [0x010242BC+2883276]
+	BaseThreadInitThunk [0x76210099+25]
+	RtlGetAppContainerNamedObjectPath [0x77AE7B6E+286]
+	RtlGetAppContainerNamedObjectPath [0x77AE7B3E+238]
+, error=invalid session id, message=invalid session id}
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'kairosHW0451', ip: '192.168.1.31', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: driver.version: RemoteWebDriver
+  org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:370)
+  org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+  org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+  org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+  com.minnwest.base.TestBase.type(TestBase.java:172)
+  com.minnwest.pages.transferLoginpage.setusername(transferLoginpage.java:10)
+  com.minnwest.testcases.Transfer_login.Transfer_login(Transfer_login.java:21)
+  java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+  java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.base/java.lang.reflect.Method.invoke(Method.java:568)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  org.testng.TestRunner.privateRun(TestRunner.java:744)
+  org.testng.TestRunner.run(TestRunner.java:602)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+  org.testng.SuiteRunner.run(SuiteRunner.java:289)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+  org.testng.TestNG.runSuites(TestNG.java:1144)
+  org.testng.TestNG.run(TestNG.java:1115)
+  org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.ClassCastException: class com.google.common.collect.Maps$TransformedEntriesMap cannot be cast to class org.openqa.selenium.WebElement (com.google.common.collect.Maps$TransformedEntriesMap and org.openqa.selenium.WebElement are in unnamed module of loader 'app')
+  org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+  org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+  org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+  org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+  com.minnwest.base.TestBase.type(TestBase.java:172)
+  com.minnwest.pages.transferLoginpage.setusername(transferLoginpage.java:10)
+  com.minnwest.testcases.Transfer_login.Transfer_login(Transfer_login.java:21)
+  java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+  java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.base/java.lang.reflect.Method.invoke(Method.java:568)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  org.testng.TestRunner.privateRun(TestRunner.java:744)
+  org.testng.TestRunner.run(TestRunner.java:602)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+  org.testng.SuiteRunner.run(SuiteRunner.java:289)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+  org.testng.TestNG.runSuites(TestNG.java:1144)
+  org.testng.TestNG.run(TestNG.java:1115)
+  org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+      </failure>
+
+          </testcase>
+  
+  
+            <testcase name="Transfer_login" time="58.031" classname="com.minnwest.testcases.Transfer_login" />
+      
+</testsuite>
