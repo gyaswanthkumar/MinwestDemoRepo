@@ -6,19 +6,19 @@
       <listener class-name="org.uncommons.reportng.HTMLReporter"/>
       <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
   </listeners>
-	<!--<test name="Minnwest transferLoginpage">
+	<test name="Minnwest transferLoginpage">
 		<classes>
 			<class name="com.minnwest.testcases.Minnwest_Login" />
 		</classes>
-	</test> Test -->
+	</test> <!--Test -->
 	<!--<test name="Minnwest transferLoginpage">
 		<classes>
 			<class name="com.minnwest.testcases.Transfer_login" />
 		</classes>
 	</test> Test -->
-	<test name="Minnwest transferLoginpage">
+	<!--<test name="Minnwest transferLoginpage">
 		<classes>
 			<class name="com.minnwest.testcases.Mutiple_login_Cred" />
 		</classes>
-	</test> <!--Test -->
+	</test> Test -->
 </suite> <!-- Suite -->

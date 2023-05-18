@@ -24,6 +24,7 @@ import com.aventstack.extentreports.markuputils.Markup;
 import com.aventstack.extentreports.markuputils.MarkupHelper;
 import com.minnwest.base.TestBase;
 import com.minnwest.utilities.ExtentManager;
+import com.minnwest.utilities.Log4j2Util;
 import com.minnwest.utilities.MonitoringMail;
 import com.minnwest.utilities.TestConfig;
 import com.minnwest.utilities.TestUtil;
@@ -33,6 +34,7 @@ import com.minnwest.utilities.TestUtil;
 public class CustomListeners extends TestBase implements ITestListener,ISuiteListener {
 
 	static String messageBody;
+	Log4j2Util log=new Log4j2Util();
 	public ExtentReports extent = ExtentManager.getInstance();
 	public ExtentTest test;
 	public static ThreadLocal<ExtentTest> testReport = new ThreadLocal<ExtentTest>();
@@ -75,6 +77,7 @@ public class CustomListeners extends TestBase implements ITestListener,ISuiteLis
 		String failureLogg="TEST CASE FAILED";
         Markup m = MarkupHelper.createLabel(failureLogg, ExtentColor.RED);
         testReport.get().log(Status.FAIL, m);
+        
       //  logg.info("Failed because of  -"+iTestResult.getThrowable());
 	
 		
@@ -86,6 +89,7 @@ public class CustomListeners extends TestBase implements ITestListener,ISuiteLis
         String logText="<b>"+"Test Case:- "+ methodName+ " Skipped"+"</b>";
         Markup m=MarkupHelper.createLabel(logText, ExtentColor.YELLOW);
         testReport.get().skip(m);
+        test.log(Status.INFO, "skipped");
         
 	}
 
@@ -94,6 +98,7 @@ public class CustomListeners extends TestBase implements ITestListener,ISuiteLis
 		System.out.println("Test case is started");
 		ExtentTest test = extent.createTest(iTestResult.getTestClass().getName()+"     @TestCase : "+iTestResult.getMethod().getMethodName());
         testReport.set(test);
+        test.log(Status.INFO, "Testcase Executing Start");
        
 		//test = extent.startTest(arg0.getName().toUpperCase());
 	

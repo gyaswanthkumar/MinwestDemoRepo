@@ -8,13 +8,13 @@
   </listeners>
   <test name="Minnwest transferLoginpage(failed)">
     <classes>
-      <class name="com.minnwest.testcases.Mutiple_login_Cred">
+      <class name="com.minnwest.testcases.Minnwest_Login">
         <methods>
           <include name="tearDown"/>
+          <include name="minnwest_Login" invocation-numbers="1 2"/>
           <include name="setUp"/>
-          <include name="Transfer_login" invocation-numbers="1 2"/>
         </methods>
-      </class> <!-- com.minnwest.testcases.Mutiple_login_Cred -->
+      </class> <!-- com.minnwest.testcases.Minnwest_Login -->
     </classes>
   </test> <!-- Minnwest transferLoginpage(failed) -->
 </suite> <!-- Failed suite [Data Driven Basics] -->

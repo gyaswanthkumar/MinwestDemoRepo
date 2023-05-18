@@ -4,12 +4,12 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="155.312">
+           time="169.219">
   <properties />
   
   
-            <testcase name="minnwest_Login" time="50.258" classname="com.minnwest.testcases.Minnwest_Login" />
-                <testcase name="minnwest_Login" time="50.987" classname="com.minnwest.testcases.Minnwest_Login" />
-                <testcase name="minnwest_Login" time="54.067" classname="com.minnwest.testcases.Minnwest_Login" />
+            <testcase name="minnwest_Login" time="54.452" classname="com.minnwest.testcases.Minnwest_Login" />
+                <testcase name="minnwest_Login" time="60.119" classname="com.minnwest.testcases.Minnwest_Login" />
+                <testcase name="minnwest_Login" time="54.648" classname="com.minnwest.testcases.Minnwest_Login" />
       
 </testsuite>

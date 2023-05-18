@@ -26,10 +26,10 @@ import com.aventstack.extentreports.Status;
 import com.minnwest.listeners.CustomListeners;
 import com.minnwest.utilities.ExcelReader;
 import com.minnwest.utilities.ExtentManager;
+import com.minnwest.utilities.Log4j2Util;
 import com.minnwest.utilities.TestUtil;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
-import log.Logutil;
 
 public class TestBase {
 
@@ -46,9 +46,10 @@ public class TestBase {
 	public static Properties OR = new Properties();
 	public static FileInputStream fis;
 	//public static Logger log = Logger.getLogger("registration");
-//	protected Log4j2Util logg=new Log4j2Util();
+    protected Log4j2Util logger=new Log4j2Util();
 	
 	//Logutil log=new Logutil();
+	
 public static ExcelReader excel = new ExcelReader(
 			System.getProperty("user.dir") + "\\src\\test\\resources\\excel\\testdata.xlsx");
 	public static WebDriverWait wait;
@@ -122,8 +123,7 @@ public static ExcelReader excel = new ExcelReader(
 			}
 			driver.manage().window().maximize();
 			driver.get(config.getProperty("testsiteurl"));
-			//logg.info("navigate to"+ config.getProperty("testsiteurl"));
-			//driver.manage().window().maximize();
+			logger.info("browser successfully launched");
 			driver.manage().timeouts().implicitlyWait(Integer.parseInt(config.getProperty("implicit.wait")),
 					TimeUnit.SECONDS);
 			wait = new WebDriverWait(driver, 5);

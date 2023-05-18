@@ -2,53 +2,53 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-05-16T15:15:09Z" name="Data Driven Basics" finished-at="2023-05-16T15:20:03Z" duration-ms="293865">
+  <suite started-at="2023-05-18T11:42:22Z" name="Data Driven Basics" finished-at="2023-05-18T11:45:11Z" duration-ms="169303">
     <groups>
     </groups>
-    <test started-at="2023-05-16T15:15:09Z" name="Minnwest transferLoginpage" finished-at="2023-05-16T15:20:03Z" duration-ms="293865">
-      <class name="com.minnwest.testcases.Mutiple_login_Cred">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.minnwest.testcases.Mutiple_login_Cred@77cf3f8b]" started-at="2023-05-16T20:45:06Z" name="setUp" finished-at="2023-05-16T20:45:09Z" duration-ms="3296" status="PASS">
+    <test started-at="2023-05-18T11:42:22Z" name="Minnwest transferLoginpage" finished-at="2023-05-18T11:45:11Z" duration-ms="169303">
+      <class name="com.minnwest.testcases.Minnwest_Login">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.minnwest.testcases.Minnwest_Login@7c1812b3]" started-at="2023-05-18T17:12:19Z" name="setUp" finished-at="2023-05-18T17:12:22Z" duration-ms="3529" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="Transfer_login(java.util.Hashtable)[pri:0, instance:com.minnwest.testcases.Mutiple_login_Cred@77cf3f8b]" started-at="2023-05-16T20:45:09Z" name="Transfer_login" data-provider="dp" finished-at="2023-05-16T20:46:53Z" duration-ms="103791" status="PASS">
+        <test-method signature="minnwest_Login(java.util.Hashtable)[pri:0, instance:com.minnwest.testcases.Minnwest_Login@7c1812b3]" started-at="2023-05-18T17:12:22Z" name="minnwest_Login" data-provider="dp" finished-at="2023-05-18T17:13:22Z" duration-ms="60119" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{password=Aswiniroy@7, username=Aswiniroy@7}]]>
+                <![CDATA[{password=Rayudu@123#, Runmode=Y, username=srinivasarayudu}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Transfer_login -->
-        <test-method signature="Transfer_login(java.util.Hashtable)[pri:0, instance:com.minnwest.testcases.Mutiple_login_Cred@77cf3f8b]" started-at="2023-05-16T20:46:53Z" name="Transfer_login" data-provider="dp" finished-at="2023-05-16T20:48:28Z" duration-ms="94730" status="PASS">
+        </test-method> <!-- minnwest_Login -->
+        <test-method signature="minnwest_Login(java.util.Hashtable)[pri:0, instance:com.minnwest.testcases.Minnwest_Login@7c1812b3]" started-at="2023-05-18T17:13:22Z" name="minnwest_Login" data-provider="dp" finished-at="2023-05-18T17:14:17Z" duration-ms="54452" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{password=Vamsy@524, username=vamsyaddala}]]>
+                <![CDATA[{password=Aswiniroy@7, Runmode=Y, username=Aswiniroy@7}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Transfer_login -->
-        <test-method signature="Transfer_login(java.util.Hashtable)[pri:0, instance:com.minnwest.testcases.Mutiple_login_Cred@77cf3f8b]" started-at="2023-05-16T20:48:28Z" name="Transfer_login" data-provider="dp" finished-at="2023-05-16T20:50:03Z" duration-ms="95263" status="PASS">
+        </test-method> <!-- minnwest_Login -->
+        <test-method signature="minnwest_Login(java.util.Hashtable)[pri:0, instance:com.minnwest.testcases.Minnwest_Login@7c1812b3]" started-at="2023-05-18T17:14:17Z" name="minnwest_Login" data-provider="dp" finished-at="2023-05-18T17:15:11Z" duration-ms="54648" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{password=Rayudu@123#, username=srinivasarayudu}]]>
+                <![CDATA[{password=Vamsy@524, Runmode=Y, username=vamsyaddala}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Transfer_login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.minnwest.testcases.Mutiple_login_Cred@77cf3f8b]" started-at="2023-05-16T20:50:04Z" name="tearDown" finished-at="2023-05-16T20:50:04Z" duration-ms="67" status="PASS">
+        </test-method> <!-- minnwest_Login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.minnwest.testcases.Minnwest_Login@7c1812b3]" started-at="2023-05-18T17:15:12Z" name="tearDown" finished-at="2023-05-18T17:15:12Z" duration-ms="58" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.minnwest.testcases.Mutiple_login_Cred -->
+      </class> <!-- com.minnwest.testcases.Minnwest_Login -->
     </test> <!-- Minnwest transferLoginpage -->
   </suite> <!-- Data Driven Basics -->
 </testng-results>
