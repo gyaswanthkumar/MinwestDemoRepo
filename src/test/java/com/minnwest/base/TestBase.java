@@ -1,6 +1,6 @@
 package com.minnwest.base;
 
-import java.io.FileInputStream;
+import java.io.FileInputStream; 
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
@@ -48,7 +48,7 @@ public class TestBase {
 	//public static Logger log = Logger.getLogger("registration");
     protected Log4j2Util logger=new Log4j2Util();
 	
-	//Logutil log=new Logutil();
+	 // Logutil log=new Logutil();
 	
 public static ExcelReader excel = new ExcelReader(
 			System.getProperty("user.dir") + "\\src\\test\\resources\\excel\\testdata.xlsx");
@@ -62,9 +62,9 @@ public static ExcelReader excel = new ExcelReader(
 	
 	@BeforeSuite
 	public void setUp() {
-
+	
 		if (driver == null) {
-
+	
 			try {
 				fis = new FileInputStream(
 						System.getProperty("user.dir") + "\\src\\test\\resources\\properties\\Config.properties");
@@ -77,7 +77,7 @@ public static ExcelReader excel = new ExcelReader(
 			} catch (IOException e) {
 				e.printStackTrace();
 			}
-
+	
 			try {
 				fis = new FileInputStream(
 						System.getProperty("user.dir") + "\\src\\test\\resources\\properties\\OR.properties");
@@ -106,11 +106,11 @@ public static ExcelReader excel = new ExcelReader(
 			
 			
 			
-
+	
 			if (config.getProperty("browser").equals("firefox")) {
 				WebDriverManager.firefoxdriver().setup();
 				driver = new FirefoxDriver();
-
+	
 			} else if (config.getProperty("browser").equals("chrome")) {
 				WebDriverManager.chromedriver().setup();
 				driver = new ChromeDriver();
@@ -130,7 +130,7 @@ public static ExcelReader excel = new ExcelReader(
 			//log.info("browser launched");
 			//logg.info("browser started");
 		}
-
+	
 	}
 
 	public void click(String locator) {
@@ -174,8 +174,8 @@ public static ExcelReader excel = new ExcelReader(
 			driver.findElement(By.id(OR.getProperty(locator))).sendKeys(value);
 		}
 
-		//test.log(LogStatus.INFO, "Typing in : " + locator + " entered value as " + value);
-	CustomListeners.testReport.get().log(Status.INFO, "Typing in : " + locator + " entered value as " + value);
+	//	test.log(LogStatus.INFO, "Typing in : " + locator + " entered value as " + value);
+	   CustomListeners.testReport.get().log(Status.INFO, "Typing in : " + locator + " entered value as " + value);
 
 	}
 	

@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="61.534">
+           time="61.158">
   <properties />
   
   
-            <testcase name="minnwest_Login" time="61.534" classname="com.minnwest.testcases.Minnwest_Login" />
+            <testcase name="minnwest_Login" time="61.158" classname="com.minnwest.testcases.Minnwest_Login" />
       
 </testsuite>

@@ -45,6 +45,7 @@ public class Minnwest_Login extends LoginPage{
 		Thread.sleep(3000);
 		clickDONE("DONE_XPATH");
 		Thread.sleep(3000);
+		driver.close();
 		
 		
 		

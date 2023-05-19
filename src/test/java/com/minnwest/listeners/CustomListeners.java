@@ -1,6 +1,6 @@
 package com.minnwest.listeners;
 
-import java.io.IOException;
+import java.io.IOException; 
 import java.net.InetAddress;
 import java.net.UnknownHostException;
 import java.util.Arrays;
@@ -34,7 +34,7 @@ import com.minnwest.utilities.TestUtil;
 public class CustomListeners extends TestBase implements ITestListener,ISuiteListener {
 
 	static String messageBody;
-	Log4j2Util log=new Log4j2Util();
+	//Log4j2Util log=new Log4j2Util();
 	public ExtentReports extent = ExtentManager.getInstance();
 	public ExtentTest test;
 	public static ThreadLocal<ExtentTest> testReport = new ThreadLocal<ExtentTest>();
